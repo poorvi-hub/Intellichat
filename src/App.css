@@ -1,0 +1,25 @@
+/* App.css or a global stylesheet */
+body {
+  background-color: #000000; /* Light blue background color */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Ensure a consistent font */
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #ffffff, #e0e0e0); /* Example gradient */
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.leftSection {
+  width: 20.33%; /* Match width in LeftSection.css */
+  height: 100vh;
+}
+
+.rightSection {
+  width: 79.67%; /* Match width in RightSection.css */
+  height: 100vh;
+}

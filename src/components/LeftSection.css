@@ -1,0 +1,90 @@
+.leftSection {
+    background-color: #202123; /* Dark background similar to ChatGPT */
+    width: 20.33%; /*Occupies 20.33% of the screen width */
+    height: 97vh; /*Occupies 97% of the viewport height. */
+    padding: 10px; /*Adds 10px padding for spacing. */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a slight 3D effect. */
+    display: flex; /*Utilizes flexbox for column layout and space distribution. */
+    flex-direction: column; 
+    justify-content: space-between; 
+    color: #e8eaed; /* Light text color for readability */
+  }
+
+
+  .newChat {
+    display: flex;/*Aligns items centrally and spaces them out evenly. */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 10%;
+    background-color: #2b2c2e;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;/* Changes cursor to pointer and smoothly transitions background color on hover.*/
+  }
+  
+  .newChat:hover {
+    background-color: #3b3c3e; /* Darker background on hover */
+  }
+  
+  .newChat img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .newChat .text1 {
+    font-size: 28px; /* Adjusted for consistency */
+    font-weight: 700;
+    margin-left: 10px;
+    color:whitesmoke;
+  }
+  
+  .newChat svg {
+    height: 24px; /* Adjusted to match the size of the image */
+    width: 24px;
+    color: var(--textcol);
+}
+
+.newChat div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+  .allChats {
+    flex-grow: 1; /*Allows the chat list to grow and take up remaining space. */
+    overflow-y: auto; /* Scrollable if there are many chats */
+    margin-top: 20px; /* Added margin to separate from new chat button */
+  }
+  
+  .chat {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #3b3c3e; /* Define your border color */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .chat:hover {
+    background-color: #3b3c3e; /* Darker background on hover */
+  }
+  
+  .chat .text1 {
+    font-size: 16px; /* Adjusted for better readability */
+    font-weight: 400;
+    color: #e8eaed; /* Define your text color */
+    margin-left: 10px;
+  }
+  
+  .newChat:last-of-type {
+    margin-top: auto;
+  }
+  
+  .newChat img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+  }
+  
